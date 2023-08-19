@@ -76,7 +76,7 @@
     </root>
 
      <!-- 单独配置日志打印级别, addtivity:是否向上级传递打印信息。默认是true。-->
-    <logger name="com.hw.controller.HelloController" level="error" additivity="false">
+    <logger name="com.hw.controller.HelloController.controller.HelloController" level="error" additivity="false">
         <appender-ref ref="console"/>
         <appender-ref ref="error_file"/>
     </logger>
