@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+#配置spring的连接
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://10.110.55.25:3308/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+  configuration:
+    #开启驼峰功能
+    map-underscore-to-camel-case: true
+
+#配置pagehelper的内容
+pagehelper:
+  helper-dialect: mysql
