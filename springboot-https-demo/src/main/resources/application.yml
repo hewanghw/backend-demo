@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  tomcat:
+    threads:
+      min-spare: 10
+      max: 20
+  ssl:
+    key-store: classpath:mykeystore.jks # 证书存放的位置
+    key-alias: springboot-https # 证书别名
+    key-store-type: JKS # P12证书格式
+    key-store-password: 666666
