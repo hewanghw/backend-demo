@@ -14,11 +14,11 @@
             <artifactId>DmJdbcDriver18</artifactId>
             <version>8.1.1.193</version>
         </dependency>
-        <dependency>
-            <groupId>gbasedbtjdbc</groupId>
-            <artifactId>gbasedbtjdbc</artifactId>
-            <version>3.5.0_2_36800b</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>gbasedbtjdbc</groupId>-->
+<!--            <artifactId>gbasedbtjdbc</artifactId>-->
+<!--            <version>3.5.0_2_36800b</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
             <artifactId>mariadb-java-client</artifactId>
