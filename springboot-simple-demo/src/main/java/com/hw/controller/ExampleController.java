@@ -27,7 +27,7 @@ public class ExampleController {
             return "pc";
         }
 
-        String remoteUser = request.getRemoteUser();
-        AttributePrincipal principal = (AttributePrincipal) request.getUserPrincipal();
+//        String remoteUser = request.getRemoteUser();
+//        AttributePrincipal principal = (AttributePrincipal) request.getUserPrincipal();
     }
 }
