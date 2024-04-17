@@ -13,6 +13,7 @@ mybatis:
   configuration:
     #开启驼峰功能
     map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 #配置pagehelper的内容
 pagehelper:
