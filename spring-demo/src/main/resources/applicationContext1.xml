@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="cat" class="com.hw.bean.Cat"/>
+
+    <bean id="dog1" class="com.hw.bean.Dog"/>
+    <bean id="dog2" class="com.hw.bean.Dog"/>
+
+    <!--    声明第三方开发的bean-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"/>
+    <bean class="com.alibaba.druid.pool.DruidDataSource"/>
+    <bean class="com.alibaba.druid.pool.DruidDataSource"/>
+
+</beans>
