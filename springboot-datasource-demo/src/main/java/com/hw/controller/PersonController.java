@@ -23,7 +23,7 @@ public class PersonController {
         Connection conn = dataSource.getConnection();
         //3.操作数据库，实现增删改查
         Statement stmt = conn.createStatement();
-        ResultSet rs = stmt.executeQuery("SELECT * FROM user_info_copy1");
+        ResultSet rs = stmt.executeQuery("SELECT * FROM person");
         //如果有数据，rs.next()返回true
         while (rs.next()) {
             ResultSetMetaData metaData = rs.getMetaData();
